@@ -1,0 +1,15 @@
+{
+  "id": "ejemplo",
+  "name": "Pack de ejemplo",
+  "version": 1,
+  "author": "futbol-manager",
+  "clubs": {
+    "Madrid Blanco": {
+      "name": "Real Madrid",
+      "logo": "logos/madrid.png"
+    },
+    "Cataluña Blaugrana": "FC Barcelona"
+  },
+  "players": {},
+  "trophies": {}
+}
