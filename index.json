@@ -1,4 +1,55 @@
 {
-  "schema": 1,
-  "packs": []
+ "schema": 1,
+ "packs": [
+  {
+   "id": "esp",
+   "name": "España · Primera División",
+   "country": "ESP",
+   "author": "futbol-manager",
+   "version": 1,
+   "size": 288138,
+   "description": "20 clubes con nombres, plantillas y medias reales, más escudos propios.",
+   "url": "https://github.com/ruben-qa/Futbol-Manager-Packs/releases/download/esp-v1/esp.zip"
+  },
+  {
+   "id": "eng",
+   "name": "Inglaterra · Premier League",
+   "country": "ENG",
+   "author": "futbol-manager",
+   "version": 1,
+   "size": 282394,
+   "description": "20 clubes con nombres, plantillas y medias reales, más escudos propios.",
+   "url": "https://github.com/ruben-qa/Futbol-Manager-Packs/releases/download/eng-v1/eng.zip"
+  },
+  {
+   "id": "ita",
+   "name": "Italia · Serie A",
+   "country": "ITA",
+   "author": "futbol-manager",
+   "version": 1,
+   "size": 284524,
+   "description": "20 clubes con nombres, plantillas y medias reales, más escudos propios.",
+   "url": "https://github.com/ruben-qa/Futbol-Manager-Packs/releases/download/ita-v1/ita.zip"
+  },
+  {
+   "id": "ger",
+   "name": "Alemania · Bundesliga",
+   "country": "GER",
+   "author": "futbol-manager",
+   "version": 1,
+   "size": 280666,
+   "description": "18 clubes con nombres, plantillas y medias reales, más escudos propios.",
+   "url": "https://github.com/ruben-qa/Futbol-Manager-Packs/releases/download/ger-v1/ger.zip"
+  },
+  {
+   "id": "fra",
+   "name": "Francia · Ligue 1",
+   "country": "FRA",
+   "author": "futbol-manager",
+   "version": 1,
+   "size": 283611,
+   "description": "18 clubes con nombres, plantillas y medias reales, más escudos propios.",
+   "url": "https://github.com/ruben-qa/Futbol-Manager-Packs/releases/download/fra-v1/fra.zip"
+  }
+ ]
 }
