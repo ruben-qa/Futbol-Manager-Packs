@@ -25,6 +25,19 @@ mi-pack.zip
     └── liga.png
 ```
 
+### Packs disponibles
+
+| Pack | Clubes | Jugadores |
+|---|---|---|
+| España · Primera División | 20 | 298 |
+| Inglaterra · Premier League | 20 | 296 |
+| Italia · Serie A | 20 | 272 |
+| Alemania · Bundesliga | 18 | 234 |
+| Francia · Ligue 1 | 18 | 228 |
+
+Traen nombres reales de clubes y jugadores, con puesto, edad y media, además
+de escudos. Se instalan desde **Ajustes → Contenido**.
+
 ### manifest.json
 
 ```json
@@ -43,6 +56,10 @@ mi-pack.zip
       "logo": "logos/fcb.png"
     }
   },
+  "squad": [
+    {"name": "Lamine Yamal", "pos": "ED", "age": 18, "ovr": 91},
+    {"name": "Pedri", "pos": "MC", "age": 23, "ovr": 88}
+  ],
   "players": {
     "Álvaro Segura": "faces/1001.png"
   },
@@ -62,6 +79,7 @@ rellenar.
 | `id` | Identificador único. Instalar otro pack con el mismo `id` lo reemplaza. |
 | `version` | Súbela al publicar cambios: la app ofrecerá actualizar. |
 | `clubs` | Renombra el club y le pone escudo. También vale `"Ficticio": "Real"` si solo quieres renombrar. |
+| `squad` | Plantilla real del club: sustituye nombre, puesto, edad y media de sus jugadores, de mejor a peor. Es lo que hace que un pack se note de verdad. |
 | `players` | Cara del jugador, por su nombre ficticio. |
 | `trophies` | Imagen del trofeo, por el nombre de la competición. |
 
@@ -97,9 +115,17 @@ rellenar.
 
 ## Aviso legal
 
-Los nombres y escudos de clubes y competiciones son marcas de sus titulares, y
-la imagen de un jugador le pertenece a él. **La app no distribuye ninguno de
-esos materiales**: viene con nombres ficticios y sin imágenes.
+La app viene con nombres ficticios y sin imágenes. Un pack es contenido que se
+prepara y comparte aparte, bajo la responsabilidad de quien lo sube.
 
-Un pack es contenido que una persona prepara y comparte bajo su
-responsabilidad. Sube solo material que tengas derecho a distribuir.
+Los packs oficiales de este repositorio contienen **nombres** de clubes y
+jugadores —datos factuales— y **escudos de diseño propio**, generados para el
+juego: no son reproducciones de los escudos reales, que son marcas de sus
+titulares.
+
+Si contribuyes con un pack, sube solo material que tengas derecho a
+distribuir. En particular, **no subas fotografías de jugadores ni escudos
+oficiales**.
+
+Las medias son una valoración propia para que el juego resulte creíble, no un
+dato oficial de nadie.
